@@ -1,0 +1,30 @@
+.cellview {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+}
+
+.cellview.revealed {
+    background: white;
+}
+
+.cellview.revealed.bomb {
+    background: red;
+}
+
+.cellview.marked {
+    background: yellow;
+}
+
+.cellview.unmarked {
+    background: #8080ff;
+}
+
+.cellview.unmarked:hover {
+    background: #80ff80;
+}
+
+.minefield {
+    border: thin solid black;
+    overflow: auto;
+}
